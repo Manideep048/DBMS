@@ -1,0 +1,17 @@
+create database UNIV;
+use UNIV;
+create table student12(sno int primary key, sname varchar(30));
+insert into student12 values(1,'manideep');
+insert into student12 values(2,'naveen');
+insert into student12 values(3,'abhinay');
+insert into student12 values(4,'himaja');
+select *from student12;
+
+create table faculty1(empid int primary key, facultyname varchar(30));
+insert into faculty1 values(1,'gandhi');
+insert into faculty1 values(2,'anjana');
+insert into faculty1 values(3,'satpathy');
+insert into faculty1 values(4,'bhargavi');
+select *from faculty1;
+insert into faculty1 values(5,'biswas');
+insert into faculty1 values(6,'sudeep');
